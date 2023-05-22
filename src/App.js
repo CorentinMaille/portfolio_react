@@ -1,24 +1,59 @@
-import ecureuil from "./ecureuil.jpg";
 import React from "./App.css";
+import Layout from "./components/layouts/layout";
+import Identity from "./components/identity";
+import Logo from "./logo.svg";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={ecureuil} className="App-logo" alt="logo" />
-        {/*<img src={logo} className="App-logo" alt="logo" />*/}
-        <p>
-          Hola Mundo !!!! Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        {/*Identity*/}
+        {/*Linkedin*/}
+        {/*Competences*/}
+        {/*Expériences*/}
+        {/*Formations*/}
+        {/*Diplômes*/}
+        {/*centre d intérêt*/}
+        {/*Url de votre site ou git*/}
+        {/*Projet : Nom / Description / Img / Lien*/}
+
+
+
+
+        <Identity
+            nom='le projet de qualité'
+            image={Logo}
+            lien='http://localhost:3000'
+        />
+
+        <Competences
+            nom='le projet de moins bonne qualité'
+            image={Logo}
+            lien='http://localhost:3000'
+        />
+
+        <Socials
+
+        />
+
+        <Experiences
+
+        />
+
+        <Formations
+
+        />
+
+        <Diplomes
+
+        />
+
+        <Hobby
+
+        />
+
+        <website
+
+        />
     </div>
   );
 }
