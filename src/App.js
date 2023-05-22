@@ -74,7 +74,10 @@ function App() {
       </Competences>
 
       <Section title="Expériences">
-
+          <List
+              line1="Développeur Fullstack Chez PROGEDOC"
+              line2="Développeur Fullstack Chez ArteFrance"
+          />
       </Section>
 
       <Section title="Formations">
